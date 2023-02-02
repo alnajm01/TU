@@ -8,6 +8,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.RegisterServices();
+builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
+
 
 var app = builder.Build();
 
@@ -16,8 +18,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
-    builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AFMEBasicData.API v1"));
+    app.UseSwaggerUI();
     app.UseCors(_cors => _cors.WithOrigins(builder.Configuration.GetSection("AllowedOrigin").Value!).AllowAnyHeader().AllowAnyMethod().AllowCredentials());
     app.UseAuthentication();
     app.UseAuthorization();
