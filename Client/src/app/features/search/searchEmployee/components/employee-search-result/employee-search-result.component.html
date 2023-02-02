@@ -1,0 +1,55 @@
+<div class="card">
+    <p-table #dt [columns]="cols" [value]="searchResult" [paginator]="true" [rows]="10" [reorderableColumns]="true"
+        selectionMode="multiple" styleClass="p-datatable-responsive-demo" [rowsPerPageOptions]="[10, 25, 50]">
+        <ng-template pTemplate="colgroup" let-columns>
+            <colgroup>
+                <col style="width:10%">
+                <col style="width:15%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:12%">
+                <col style="width:12%">
+            </colgroup>
+        </ng-template>
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th *ngFor="let col of columns" [pSortableColumn]="col.field" [ngStyle]="{ display: col.display }">
+                    <span>
+                        {{ col.header }}
+                    </span>
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns">
+            <tr>
+                <!-- <td *ngFor="let col of columns" style="font-size: small" [ngStyle]="{ display: col.display}">
+                    <span *ngIf="col.header === 'Id'">
+                        <a target="_blank" routerLinkActive="router-link-active" [routerLink]="['/Request/ReadOnly']"
+                            [queryParams]="{ RequestID: rowData[columns[9].field] }">{{ rowData[col.field] }}</a>
+                    </span>
+                    <span *ngIf="
+              col.header != 'SQ No' &&
+              col.header != 'Submission Date' &&
+              col.header != 'Detailed Desc' &&
+              col.header !='Requester Name' &&
+              col.header !='(Process)' &&
+              col.header !='(Create Copied Request)' &&
+              col.header !='Ready At' &&
+              col.header !='Status' ">{{ rowData[col.field] }}</span>
+                </td> -->
+                <td *ngFor="let col of columns" style="font-size: small" [ngStyle]="{ display: col.display}">
+                    <ng-template [ngIf]="col.header === 'Id'" [ngIfElse]="otherField">
+                        <span>
+                            <a target="_blank" routerLink="readonly-info"
+                                [queryParams]="{ userName: rowData[columns[6].field] }">{{ rowData[col.field] }}</a>
+                        </span>
+                    </ng-template>
+                    <ng-template #otherField>
+                        {{ rowData[col.field] }}
+                    </ng-template>
+                </td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

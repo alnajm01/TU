@@ -1,0 +1,205 @@
+<style>
+  @media (min-width: 1200px) {
+    .responsive-font-example {
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+
+  /* If the screen size is smaller than 1200px, set the font-size to 15px */
+  @media (max-width: 1199.98px) {
+    .responsive-font-example {
+      font-size: 15px;
+    }
+  }
+</style>
+
+<ul class="c-sidebar-nav">
+  <li class="c-sidebar-nav-title">
+    <a routerLink="Home" routerLinkActive="Home">
+      <div class="c-sidebar-brand responsive-font-example">SQ Egypt</div>
+    </a>
+  </li>
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link" routerLink="['/Request/New']" routerLinkActive="active">
+      <i class="c-sidebar-nav-icon cil-plus"></i> Request Form
+      <span class="badge badge-info">NEW</span>
+    </a>
+  </li>
+
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link" routerLink="['/Request/CopyRequest']" routerLinkActive="active">
+      <i class="c-sidebar-nav-icon cil-plus"></i> Copy Request Form
+      <span class="badge badge-info"></span>
+    </a>
+  </li>
+
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link" routerLink="Search" routerLinkActive="active">
+      <i class="c-sidebar-nav-icon cil-search"></i> Search
+    </a>
+  </li>
+
+  <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
+    <a class="c-sidebar-nav-dropdown-toggle">
+      <i class="c-sidebar-nav-icon cil-settings"></i> Configuration
+    </a>
+    <ul class="flex-column nav pl-4 c-sidebar-nav-dropdown-items">
+
+      <li class="c-sidebar-nav-item c-sidebar-nav-dropdown" [hidden]="!_isMasterAdmin">
+        <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+          <i class="c-sidebar-nav-icon cil-pen-nib"></i> Master Configuration</a>
+        <ul class="flex-column nav pl-4 c-sidebar-nav-dropdown-items">
+          <li class="c-sidebar-nav-item">
+            <a class="c-sidebar-nav-link" routerLink="Configuration/master/country" routerLinkActive="active">
+              Country
+            </a>
+          </li>
+          <li class="c-sidebar-nav-item">
+            <a class="c-sidebar-nav-link" routerLink="Configuration/master/countryadmin" routerLinkActive="active">
+              Country Admins
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="c-sidebar-nav-item c-sidebar-nav-dropdown" [hidden]="!_isMarketAdmin">
+        <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+          <i class="c-sidebar-nav-icon cil-flag-alt"></i> Market Configuration</a>
+
+        <ul class="flex-column nav pl-4 c-sidebar-nav-dropdown-items">
+
+
+
+          <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
+            <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+              <i class="c-sidebar-nav-icon cil-folder-open"></i> Lookups </a>
+
+            <ul class="c-sidebar-nav-dropdown-items">
+
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/requesttype"
+                  routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> Request Type
+                </a>
+              </li>
+
+
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/distributer"
+                  routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> Distributor
+                </a>
+              </li>
+
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/mpg" routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> MPG
+                </a>
+              </li>
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/productmanagers"
+                  routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> Product Managers
+                </a>
+              </li>
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/sector"
+                  routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> Sector
+                </a>
+              </li>
+              <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
+                <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon cil-group"></i> Power Search </a>
+                <ul class="c-sidebar-nav-dropdown-items">
+                  <li class="c-sidebar-nav-item">
+                    <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/powersearch/groups"
+                      routerLinkActive="active">
+                      <i class="c-sidebar-nav-icon small"></i> Power Search Groups
+                    </a>
+                  </li>
+                  <li class="c-sidebar-nav-item">
+                    <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/powersearch/members"
+                      routerLinkActive="active">
+                      <i class="c-sidebar-nav-icon small"></i> Members
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
+                <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon cil-group"></i> Customer Admin </a>
+                <ul class="c-sidebar-nav-dropdown-items">
+                  <li class="c-sidebar-nav-item">
+                    <a class="c-sidebar-nav-link" routerLink="Configuration/market/Lookups/customerconfig/members"
+                      routerLinkActive="active">
+                      <i class="c-sidebar-nav-icon small"></i> Members
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
+            <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+              <i class="c-sidebar-nav-icon cil-group"></i> Approval Groups </a>
+            <ul class="c-sidebar-nav-dropdown-items">
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/approvalgroup/groups"
+                  routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> Groups
+                </a>
+              </li>
+              <li class="c-sidebar-nav-item">
+                <a class="c-sidebar-nav-link" routerLink="Configuration/market/approvalgroup/members"
+                  routerLinkActive="active">
+                  <i class="c-sidebar-nav-icon small"></i> Members
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="c-sidebar-nav-item c-sidebar-nav-dropdown">
+            <a class="c-sidebar-nav-link" routerLink="Configuration/market/workflowrouting" routerLinkActive="active">
+              <i class="c-sidebar-nav-icon cil-fork"></i> WorkFlowRouting </a>
+          </li>
+          <li class="c-sidebar-nav-item">
+            <a class="c-sidebar-nav-link" routerLink="Configuration/market/profitability" routerLinkActive="active">
+              <i class="c-sidebar-nav-icon cil-chart"></i> Profitability
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="c-sidebar-nav-item c-sidebar-nav-dropdown" [hidden]="!_isCustomerAdmin">
+        <a class="c-sidebar-nav-dropdown-toggle" routerLinkActive="active">
+          <i class="c-sidebar-nav-icon cil-search"></i> Customer Configuration</a>
+        <ul class="flex-column nav pl-4 c-sidebar-nav-dropdown-items">
+          <li class="c-sidebar-nav-item">
+            <a class="c-sidebar-nav-link" routerLink="Configuration/customerconfig/customers" routerLinkActive="active">
+              Customers
+            </a>
+          </li>
+          <li class="c-sidebar-nav-item">
+            <a class="c-sidebar-nav-link" routerLink="Configuration/customerconfig/customerproducts"
+              routerLinkActive="active">
+              Customer Products
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="c-sidebar-nav-item mt-auto">
+    <a class="c-sidebar-nav-link c-sidebar-nav-link-success" href="#">
+      <i class="c-sidebar-nav-icon cil-home"></i> <strong>Home Page</strong></a>
+  </li>
+  <li class="c-sidebar-nav-item">
+    <a class="c-sidebar-nav-link c-sidebar-nav-link-danger" routerLink="['ToDoList']" routerLinkActive="active">
+      <i class="c-sidebar-nav-icon cil-spreadsheet"></i>
+
+      <strong>To-DoList</strong>
+    </a>
+  </li>
+</ul>
+<button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="#sidebar"
+  data-class="c-sidebar-minimized"></button>

@@ -1,0 +1,211 @@
+<style>
+    input[readonly] {
+        background-color: white;
+    }
+</style>
+
+<div class="card">
+    <div class="card-header"><strong>Afme Employee Information</strong></div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">First Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.firstName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Middle Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.middleName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Last Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.lastName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Full Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.fullName }}" readonly>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">Country</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.country }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Market Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.marketName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Name">Department Name</label>
+                <input type="text" class="form-control" id="txt_Name" value="{{ employee.departmentName}}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Employee Id</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.id }}" readonly>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="txt_Name">Display Name</label>
+                <input type="text" class="form-control" id="txt_Name" value="{{ employee.displayName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Global Id (UUID)</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.globalID }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Job Title</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.jobTitle }}" readonly>
+            </div>
+
+            <div class="col">
+                <label for="txt_Title">Employee Domain</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.employeeDomain }}" readonly>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col">
+                <label for="txt_Title">Email Address</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.emailAddress }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">User Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.userName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Name">Mobile Number</label>
+                <input type="text" class="form-control" id="txt_Name" value="{{ employee.mobileNumber}}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">NetWork Login Id</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.networkLoginId }}" readonly>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">PeopleSoft Id</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.peopleSoftId }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">User Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.userName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Hire Date</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.dataOfHiring }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Business Unit</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.businessUnit }}" readonly>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">Is Employee</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.isEmployee }}" readonly>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header"><strong>Manager</strong></div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">Manager Email Address</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerEmailAddress }}"
+                    readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerName }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager NetworkID</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerNetworkID }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager PeopleSoft</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerPeopleSoft }}"
+                    readonly>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">Manager Domain</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerDomain }}" readonly>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header"><strong>Manager of Manager</strong></div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">Manager Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerOfManagerName }}"
+                    readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager UserName</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerOfManagerNetworkID }}"
+                    readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager PeopleSoft Id</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerOfManagerPeopleSoft }}"
+                    readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.managerDomain }}" readonly>
+            </div>
+            <div class="col">
+                <label for="txt_Title">Manager EmailAddress</label>
+                <input type="text" class="form-control" id="txt_Title"
+                    value="{{ employee.managerOfManagerEmailAddress }}" readonly>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header"><strong>Company</strong></div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">Company Name</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.companyName }}" readonly>
+                <div class="col">
+                    <label for="txt_Title">Company Code</label>
+                    <input type="text" class="form-control" id="txt_Title" value="{{ employee.companyCode }}" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header"><strong>Other</strong></div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                <label for="txt_Title">aCQ_DIV_FLAG</label>
+                <input type="text" class="form-control" id="txt_Title" value="{{ employee.ACQ_DIV_FLAG }}" readonly>
+                <div class="col">
+                    <label for="txt_Title">eLIG_CONFIG6</label>
+                    <input type="text" class="form-control" id="txt_Title" value="{{ employee.ELIG_CONFIG6 }}" readonly>
+                </div>
+                <div class="col">
+                    <label for="txt_Title">vENDOR_NAME</label>
+                    <input type="text" class="form-control" id="txt_Title" value="{{ employee.vendorName }}" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

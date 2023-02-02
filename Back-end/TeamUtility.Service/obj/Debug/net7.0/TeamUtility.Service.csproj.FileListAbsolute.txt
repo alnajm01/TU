@@ -1,0 +1,15 @@
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\bin\Debug\net7.0\TeamUtility.Service.deps.json
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\bin\Debug\net7.0\TeamUtility.Service.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\bin\Debug\net7.0\TeamUtility.Service.pdb
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\bin\Debug\net7.0\TeamUtility.Dal.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\bin\Debug\net7.0\TeamUtility.Dal.pdb
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.csproj.AssemblyReference.cache
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.AssemblyInfoInputs.cache
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.AssemblyInfo.cs
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.csproj.CoreCompileInputs.cache
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.csproj.CopyComplete
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\refint\TeamUtility.Service.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\TeamUtility.Service.pdb
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Service\obj\Debug\net7.0\ref\TeamUtility.Service.dll

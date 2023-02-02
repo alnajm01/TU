@@ -1,0 +1,46 @@
+<form [formGroup]="searchFilterForm">
+    <div class="card">
+        <div class="card-header"><strong>Employee Information</strong></div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <label for="txtIntiatorTitle">User Name</label>
+                    <input type="text" class="form-control" formControlName="userName" id="emp_userName">
+                </div>
+                <div class="col">
+                    <label for="txtIntiatorTitle">PeopleSoft Id</label>
+                    <input type="text" class="form-control" formControlName="peopleSoftId" id="emp_peopplesoftId">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="txtIntiatorTitle">First Name</label>
+                    <input type="text" class="form-control" formControlName="firstName" id="emp_firstName">
+                </div>
+                <div class="col">
+                    <label for="txtIntiatorTitle">Last Name</label>
+                    <input type="text" class="form-control" formControlName="lastName" id="emp_lastName">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="txtIntiatorTitle">Email</label>
+                    <input type="text" class="form-control" formControlName="email" id="emp_email">
+                </div>
+                <div class="col">
+                    <label for="market">Market</label>
+                    <ng-select [items]="markets" placeholder="Select Market" id="emp_market" formControlName="market"
+                        bindLabel="name" bindValue="name">
+                    </ng-select>
+                </div>
+            </div>
+
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-sm btn-info" (click)="submit()" type="submit">
+                Search
+            </button>
+        </div>
+    </div>
+
+</form>
