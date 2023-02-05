@@ -1,0 +1,12 @@
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\bin\Debug\net6.0\TeamUtility.Dal.deps.json
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\bin\Debug\net6.0\TeamUtility.Dal.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\bin\Debug\net6.0\TeamUtility.Dal.pdb
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.csproj.AssemblyReference.cache
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.AssemblyInfoInputs.cache
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.AssemblyInfo.cs
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.csproj.CoreCompileInputs.cache
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\refint\TeamUtility.Dal.dll
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\TeamUtility.Dal.pdb
+C:\Users\alnajm01\repos\TeamUtility\Back-end\TeamUtility.Dal\obj\Debug\net6.0\ref\TeamUtility.Dal.dll

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "Azure.Core/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -1659,7 +1659,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "Dapper >= 2.0.90",
       "Microsoft.Data.SqlClient >= 3.0.0-preview3.21140.5"
     ]
@@ -1670,24 +1670,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Dal\\TeamUtility.Dal.csproj",
+      "projectUniqueName": "C:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Dal\\TeamUtility.Dal.csproj",
       "projectName": "TeamUtility.Dal",
-      "projectPath": "c:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Dal\\TeamUtility.Dal.csproj",
+      "projectPath": "C:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Dal\\TeamUtility.Dal.csproj",
       "packagesPath": "C:\\Users\\alnajm01\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Dal\\obj\\",
+      "outputPath": "C:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Dal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alnajm01\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -1698,8 +1698,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Dapper": {
             "target": "Package",

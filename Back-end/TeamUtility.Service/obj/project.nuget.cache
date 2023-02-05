@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dC0F/d1RVubqXIUE9+2ciUnToOddfe51ancuOTpqvJMDX3r2uNp+qxlCoJKaSkSDK7TXsJhgC/j3onDwSdV5BQ==",
+  "dgSpecHash": "UDMgPaF+J/Ov7ypQmri9pbzfUbPPrrdX+TUtWftiYJzLKHNo3i6YJEroYviHK3EKWsJYyqc79I9TgOsk3q2ErQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\alnajm01\\repos\\TeamUtility\\Back-end\\TeamUtility.Service\\TeamUtility.Service.csproj",
   "expectedPackageFiles": [
@@ -11,9 +11,9 @@
     "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.data.sqlclient\\3.0.0-preview3.21140.5\\microsoft.data.sqlclient.3.0.0-preview3.21140.5.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\3.0.0-preview1.21104.2\\microsoft.data.sqlclient.sni.runtime.3.0.0-preview1.21104.2.nupkg.sha512",
-    "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
-    "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.identity.client\\4.22.0\\microsoft.identity.client.4.22.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.16.5\\microsoft.identity.client.extensions.msal.2.16.5.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\alnajm01\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
+    "C:\\Users\\alnajm01\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\alnajm01\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
