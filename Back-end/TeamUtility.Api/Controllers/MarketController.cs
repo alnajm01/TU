@@ -1,9 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TeamUtility.Service.Services;
 
 namespace TeamUtility.Api.Controllers;
 
-// [Authorize]
+[Authorize]
 [ApiController]
 [Route("[Controller]")]
 public sealed class MarketController : ControllerBase

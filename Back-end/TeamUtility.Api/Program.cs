@@ -33,5 +33,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
-app.MapControllers();
+if (app.Environment.IsDevelopment()) app.MapControllers();
+else app.MapControllers().AllowAnonymous();
 app.Run();

@@ -1,10 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TeamUtility.Service.Dtos;
 using TeamUtility.Service.Services;
 
 namespace TeamUtility.Api.Controllers;
 
-// [Authorize]
+[Authorize]
 [ApiController]
 [Route("[controller]")]
 
@@ -40,4 +41,12 @@ public sealed class EmployeeController : ControllerBase
     => Ok(
         await _service.GetUserProfileByUserName(userName)
     );
+
+    [HttpGet]
+    [Route("[Action]")]
+    public async Task<IActionResult> TestEP()
+    {
+        var dum = User.Identity?.IsAuthenticated;
+        return Ok();
+    }
 }

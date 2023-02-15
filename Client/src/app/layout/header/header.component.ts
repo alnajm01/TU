@@ -10,6 +10,5 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
   back(): void {
     this.location.back();
-    //this.router.navigate['..'];
   }
 }
